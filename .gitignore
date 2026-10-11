@@ -1,0 +1,15 @@
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+
+# Secretos
+.env
+
+# Datos que se regeneran con los scripts (las cifras agregadas de data/*.csv sí se publican)
+data/raw/
+data/*.duckdb
+data/*.duckdb.wal
+
+# Sistema
+.DS_Store

@@ -1,0 +1,20 @@
+[project]
+name = "latam-crossref-metadata"
+version = "1.0.0"
+description = "Metadatos de revistas latinoamericanas en Crossref (2020–2025): código para replicar las cifras del paper"
+requires-python = ">=3.11"
+authors = [{ name = "Roberto Tapia" }]
+license = { text = "MIT" }
+dependencies = [
+    "duckdb>=1.0",
+    "pandas>=2.2",
+    "requests>=2.32",
+    "python-dotenv>=1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["lcm"]

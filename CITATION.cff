@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Si usas este trabajo, cita el paper. / If you use this work, please cite the paper."
+title: "Metadatos de revistas latinoamericanas en Crossref: código y datos agregados"
+type: software
+authors:
+  - family-names: Tapia
+    given-names: Roberto
+    orcid: "https://orcid.org/0009-0007-1660-422X"
+repository-code: "https://github.com/robertotapiah/latam-crossref-metadata"
+license: MIT
+version: "1.0.0"
+keywords:
+  - Crossref
+  - metadata
+  - metadatos
+  - Latin America
+  - América Latina
+  - ROR
+  - ORCID
+  - OpenAlex
+preferred-citation:
+  type: article
+  title: "Metadatos de revistas latinoamericanas en Crossref: la afiliación institucional y el financiamiento casi no se registran (2020–2025)"
+  authors:
+    - family-names: Tapia
+      given-names: Roberto
+      orcid: "https://orcid.org/0009-0007-1660-422X"
+  year: 2026
+  doi: 10.5281/zenodo.23250641
+  publisher:
+    name: Zenodo
+  notes: "Preprint"
